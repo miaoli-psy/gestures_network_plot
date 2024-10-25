@@ -27,20 +27,48 @@ images_list = [f for f in os.listdir(gestuers_folder) if os.path.isfile(os.path.
 
 
 # relations
+# =============================================================================
+# relationships = [
+#     ("G1_spray.png", "G7_medWrap.png"), 
+#     ("G2_poke.png", "G3_gachette.png"),
+#     ("G6_preciDisk.png", "G7_medWrap.png"),
+#     ("G6_preciDisk.png", "G11_thumb2f.png"),
+#     ("G7_medWrap.png", "G9_thumb3f.png"),
+#     ("G8_LateralPinch.png", "G11_thumb2f.png"),
+#     ("G9_thumb3f.png", "G7_medWrap.png"),
+#     ("G9_thumb3f.png", "G8_LateralPinch.png"),
+#     ("G10_extenType.png", "G4_palm.png"),
+#     ("G10_extenType.png", "G7_medWrap.png"),
+#     ("G11_thumb2f.png", "G6_preciDisk.png"),
+#     ("G11_thumb2f.png", "G7_medWrap.png"),
+#     ("G11_thumb2f.png", "G9_thumb3f.png"),
+#     ("G12powerSphere.png", "G7_medWrap.png"),
+#     ("G12powerSphere.png", "G1_spray.png"),
+#     ("G12powerSphere.png", "G4_palm.png")]
+# =============================================================================
+
 relationships = [
     ("G1_spray.png", "G7_medWrap.png"), 
     ("G2_poke.png", "G3_gachette.png"),
+    ("G3_gachette.png", "G1_spray.png"),
+    ("G3_gachette.png", "G9_thumb3f.png"),
+    ("G4_palm.png", "G7_medWrap.png"),
+    ("G5_briquet.png", "G8_LateralPinch.png"),
     ("G6_preciDisk.png", "G7_medWrap.png"),
     ("G6_preciDisk.png", "G11_thumb2f.png"),
+    ("G13_precisionDisk2.png", "G7_medWrap.png"),
+    ("G13_precisionDisk2.png", "G9_thumb3f.png"),
     ("G7_medWrap.png", "G9_thumb3f.png"),
-    ("G8_LateralPinch.png", "G11_thumb2f.png"),
+    ("G8_LateralPinch.png", "G5_briquet.png"),
+    ("G14_lateralPinch2.png", "G5_briquet.png"),
+    ("G9_thumb3f.png", "G1_spray.png"),
     ("G9_thumb3f.png", "G7_medWrap.png"),
-    ("G9_thumb3f.png", "G8_LateralPinch.png"),
+    ("G9_thumb3f.png", "G13_precisionDisk2.png"),
     ("G10_extenType.png", "G4_palm.png"),
     ("G10_extenType.png", "G7_medWrap.png"),
-    ("G11_thumb2f.png", "G6_preciDisk.png"),
-    ("G11_thumb2f.png", "G7_medWrap.png"),
-    ("G11_thumb2f.png", "G9_thumb3f.png"),
+    ("G11_thumb2f.png", "G3_gachette.png"),
+    ("G11_thumb2f.png", "G8_LateralPinch.png"),
+    ("G11_thumb2f.png", "G14_lateralPinch2.png"),
     ("G12powerSphere.png", "G7_medWrap.png"),
     ("G12powerSphere.png", "G1_spray.png"),
     ("G12powerSphere.png", "G4_palm.png")]
